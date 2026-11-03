@@ -17,6 +17,7 @@ qt_add_executable(FinanceApp
     transactionwindow.h transactionwindow.cpp transactionwindow.ui
     database.cpp
     database.h
+    add_containers.h add_containers.cpp add_containers.ui
 
 
 )

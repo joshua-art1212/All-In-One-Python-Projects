@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>690</y>
+      <y>740</y>
       <width>313</width>
       <height>80</height>
      </rect>
@@ -32,7 +32,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="container_pushButton">
        <property name="text">
         <string>+Add Container</string>
        </property>
@@ -72,7 +72,7 @@
       <x>40</x>
       <y>490</y>
       <width>379</width>
-      <height>171</height>
+      <height>241</height>
      </rect>
     </property>
    </widget>
@@ -119,8 +119,11 @@
         <property name="text">
          <string>Income</string>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
        </widget>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="income_value_label">
         <property name="geometry">
          <rect>
           <x>30</x>
@@ -155,8 +158,11 @@
         <property name="text">
          <string>Balance</string>
         </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
        </widget>
-       <widget class="QLabel" name="label_4">
+       <widget class="QLabel" name="balance_value_label">
         <property name="geometry">
          <rect>
           <x>30</x>
@@ -202,6 +208,19 @@
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delete_container_push">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>450</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear Containers</string>
     </property>
    </widget>
   </widget>

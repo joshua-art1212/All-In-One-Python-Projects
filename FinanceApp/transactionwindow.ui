@@ -39,18 +39,18 @@
       <x>0</x>
       <y>100</y>
       <width>281</width>
-      <height>41</height>
+      <height>72</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
      <item>
-      <widget class="QTextEdit" name="textEdit_3"/>
+      <widget class="QTextEdit" name="category_textEdit"/>
      </item>
      <item>
-      <widget class="QTextEdit" name="textEdit"/>
+      <widget class="QTextEdit" name="tag_textEdit"/>
      </item>
      <item>
-      <widget class="QTextEdit" name="textEdit_2"/>
+      <widget class="QTextEdit" name="amount_textEdit"/>
      </item>
     </layout>
    </widget>
